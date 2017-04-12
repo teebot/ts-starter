@@ -1,10 +1,8 @@
 {
     "compilerOptions": {
-        "module": "system",
         "target": "es5",
         "noImplicitAny": false,
-        "sourceMap": true,
-        "outFile": "out/main.js"
+        "sourceMap": true
     },
     "include": [
         "src/**/*"

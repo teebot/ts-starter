@@ -1,12 +1,13 @@
 {
   "name": "ts-starter",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
   "scripts": {
-    "start": "tsc -w"
+    "start": "webpack-dev-server --hot --inline"
   },
   "dependencies": {
-    "typescript": "^2.2.2"
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.2.2",
+    "webpack": "^2.3.3",
+    "webpack-dev-server": "^2.4.2"
   }
 }

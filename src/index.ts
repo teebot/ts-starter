@@ -4,8 +4,8 @@ class Foo {
         this.name = name;
     }
     greet() {
-        alert(`Hi ${this.name}`);
+        alert(`Hi there ${this.name}`);
     }
 }
 
-new Foo('Bert').greet();
+new Foo('Bertie').greet();
