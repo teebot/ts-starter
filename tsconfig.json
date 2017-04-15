@@ -1,8 +1,10 @@
 {
     "compilerOptions": {
-        "target": "es5",
+        "target": "es6",
         "noImplicitAny": false,
-        "sourceMap": true
+        "sourceMap": true,
+        "module": "commonjs",
+        "typeRoots": ["node_modules/@types"]
     },
     "include": [
         "src/**/*"
